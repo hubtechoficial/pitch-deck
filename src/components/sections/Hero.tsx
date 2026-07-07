@@ -5,7 +5,7 @@ export default function Hero() {
     <section className="min-h-screen flex flex-col items-center justify-center text-center px-6 py-20">
       <Logo className="mb-12" />
 
-      <h1 className="font-display font-bold text-3xl md:text-4xl max-w-3xl leading-tight">
+      <h1 className="font-display font-bold text-2xl sm:text-3xl md:text-4xl max-w-3xl leading-tight">
         SUA EQUIPE AUTOMATIZADA, SEU ATENDIMENTO ESCALADO, SUAS DECISÕES COM
         DADOS
       </h1>

@@ -14,10 +14,30 @@ const inter = Inter({
   weight: ["400", "600"],
 });
 
+const title = "Hub Tech — Soluções de IA sob Medida";
+const description =
+  "Automatize processos, escale o atendimento e decida com mais dados — soluções de inteligência artificial sob medida para o seu negócio.";
+
+const siteUrl = process.env.VERCEL_URL
+  ? `https://${process.env.VERCEL_URL}`
+  : "http://localhost:3000";
+
 export const metadata: Metadata = {
-  title: "Hub Tech — Soluções de IA sob Medida",
-  description:
-    "Automatize processos, escale o atendimento e decida com mais dados — soluções de inteligência artificial sob medida para o seu negócio.",
+  metadataBase: new URL(siteUrl),
+  title,
+  description,
+  openGraph: {
+    title,
+    description,
+    siteName: "Hub Tech",
+    locale: "pt_BR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({

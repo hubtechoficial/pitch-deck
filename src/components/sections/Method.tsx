@@ -29,7 +29,7 @@ const steps = [
 
 export default function Method() {
   return (
-    <section className="px-6 py-24 max-w-5xl mx-auto">
+    <section className="px-6 py-16 sm:py-20 md:py-24 max-w-5xl mx-auto">
       <h2 className="font-display font-bold text-2xl md:text-3xl">
         Método Hub Tech de IA sob Medida
       </h2>

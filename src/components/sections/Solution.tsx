@@ -7,7 +7,7 @@ const tags = [
 
 export default function Solution() {
   return (
-    <section className="px-6 py-24 max-w-5xl mx-auto">
+    <section className="px-6 py-16 sm:py-20 md:py-24 max-w-5xl mx-auto">
       <h2 className="font-display font-bold text-2xl md:text-3xl max-w-2xl leading-snug">
         Especialistas em inteligência artificial aplicada ao seu negócio
       </h2>

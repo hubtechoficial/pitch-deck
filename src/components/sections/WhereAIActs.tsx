@@ -3,7 +3,7 @@ import Card from "@/components/Card";
 
 export default function WhereAIActs() {
   return (
-    <section className="px-6 py-24 max-w-5xl mx-auto">
+    <section className="px-6 py-16 sm:py-20 md:py-24 max-w-5xl mx-auto">
       <h2 className="font-display font-bold text-2xl md:text-3xl">
         Onde a IA atua no seu negócio
       </h2>
