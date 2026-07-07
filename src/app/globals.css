@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+:root {
+  /* Cores — Hub Tech Brand Guidelines v2.0 */
+  --color-primary: #2952D9;
+  --color-primary-dark: #1A3AB8;
+  --color-gray-logo: #9DA3AE;
+  --color-bg: #0A0A0A;
+  --color-surface: #1A1A1A;
+  --color-gray-medium: #888888;
+  --color-white: #FFFFFF;
+
+  /* Tipografia — --font-display e --font-body já são injetados no <html>
+     pelo next/font (ver src/app/layout.tsx), não redeclarar aqui. */
+  --letter-spacing-label: 2.5px;
+
+  /* Bordas */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+}
+
+@theme inline {
+  --color-primary: var(--color-primary);
+  --color-primary-dark: var(--color-primary-dark);
+  --color-gray-logo: var(--color-gray-logo);
+  --color-bg: var(--color-bg);
+  --color-surface: var(--color-surface);
+  --color-gray-medium: var(--color-gray-medium);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-white);
+  font-family: var(--font-body);
+}
