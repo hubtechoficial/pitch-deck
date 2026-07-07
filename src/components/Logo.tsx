@@ -7,7 +7,7 @@ export default function Logo({ className = "" }: { className?: string }) {
       alt="Hub Tech Tecnologia"
       width={2366}
       height={722}
-      className={`w-[180px] h-auto ${className}`}
+      className={`w-[240px] md:w-[320px] h-auto ${className}`}
       priority
     />
   );
