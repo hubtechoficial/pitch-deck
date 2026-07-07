@@ -1,13 +1,14 @@
+import Image from "next/image";
+
 export default function Logo({ className = "" }: { className?: string }) {
   return (
-    <div className={`flex flex-col items-center ${className}`}>
-      <span className="font-display font-bold text-3xl tracking-tight">
-        <span className="text-primary">hub</span>
-        <span className="text-gray-logo">Tech</span>
-      </span>
-      <span className="text-gray-medium text-xs tracking-[2.5px] mt-1">
-        TECNOLOGIA
-      </span>
-    </div>
+    <Image
+      src="/logo-white.png"
+      alt="Hub Tech Tecnologia"
+      width={2366}
+      height={722}
+      className={`w-[180px] h-auto ${className}`}
+      priority
+    />
   );
 }
